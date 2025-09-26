@@ -1,4 +1,5 @@
 # sagarsardar.me
+![Sagar Sardar](https://avatars.githubusercontent.com/u/73057491?v=4)
 
 ![Status](https://img.shields.io/badge/status-under%20construction-yellow)
 
