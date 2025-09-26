@@ -1,5 +1,7 @@
 # sagarsardar.me
-![Sagar Sardar](https://avatars.githubusercontent.com/u/73057491?v=4)
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/73057491?v=4" alt="Sagar Sardar" width="150">
+</p>
 
 ![Status](https://img.shields.io/badge/status-under%20construction-yellow)
 
