@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Teko:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #f4f4f4;
+      }
+      /* Using Teko for the large heading to better match the condensed style */
+      .title-font {
+        font-family: "Teko", sans-serif;
+        letter-spacing: 0.05em;
+        line-height: 0.9;
+      }
+    </style>
+  </head>
+  <body class="text-gray-800">
+    <!-- Main Container -->
+    <div class="flex flex-col lg:flex-row min-h-screen">
+      <!-- Left Content Section -->
+      <div
+        class="w-full lg:w-1/2 bg-[#f4f4f4] p-8 sm:p-12 md:p-16 flex flex-col relative"
+      >
+        <!-- Header -->
+        <header class="flex justify-between items-center mb-16">
+          <div class="w-6 h-6 bg-black transform rotate-45"></div>
+          <div class="text-right">
+            <span class="font-semibold">Menu</span>
+            <nav class="text-xs text-gray-500 mt-2 space-y-1">
+              <div><a href="#" class="hover:text-black">Home Page</a></div>
+              <div><a href="#" class="hover:text-black">Portfolio</a></div>
+              <div><a href="#" class="hover:text-black">Resume</a></div>
+              <div><a href="#" class="hover:text-black">Projects</a></div>
+            </nav>
+          </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-grow flex flex-col justify-center">
+          <h1
+            class="text-7xl sm:text-8xl md:text-9xl font-semibold title-font text-black"
+          >
+            <div>COMING</div>
+            <div>SOON !</div>
+          </h1>
+          <p class="mt-8 max-w-sm text-sm text-gray-600">
+            This portfolio offers a glimpse into my professional journey,
+            highlighting my key achievements and projects. It serves as a living
+            document of my work and is currently under active development. Thank
+            you for visiting.
+          </p>
+        </main>
+
+        <!-- Floating Action Button -->
+        <div
+          class="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-1/2 z-10 hidden lg:block"
+        >
+          <button
+            class="w-24 h-24 bg-orange-500 rounded-full flex items-center justify-center shadow-lg hover:bg-orange-600 transition-colors duration-300"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8 text-white"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </button>
+        </div>
+        <!-- Button for mobile/tablet view -->
+        <div class="mt-8 lg:hidden">
+          <button
+            class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center shadow-lg hover:bg-orange-600 transition-colors duration-300"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-white"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Right Image Section -->
+      <div class="w-full lg:w-1/2 h-96 lg:h-auto">
+        <img
+          src="https://avatars.githubusercontent.com/u/73057491?v=4"
+          alt=""
+          class="h-screen w-screen object-cover"
+        />
+      </div>
+    </div>
+  </body>
+</html>
